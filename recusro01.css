@@ -26,8 +26,21 @@
     color: aliceblue;
     font-family: sans-serif;
     font-size: 40px;
-}
-.container p:nth-child(1){
-    top: 16px;
+    bottom: 16px;
     right: 16px;
+    font-size: 24px; 
+}
+h1{
+    position: absolute;
+    top: 32px;
+    font-family: sans-serif;
+    left: 16px;
+    color: aliceblue;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    object-fit: cover;
 }
